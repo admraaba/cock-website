@@ -6,7 +6,7 @@
     <title>Nating Higgers Is Fun!</title>
     <style>
     	body {
-        	background-color: red;
+        	background-color: rgb(66, 155, 70);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -15,35 +15,39 @@
             color: white;
         }
         
+        .container {
+        	text-align: center;
+            padding: 20px;
+            background-color: #64d2da;
+        }
+        
         #text {
         	font-size: 4em;
-            color: green;
+            color: rgb(48, 13, 177);
         }
         
         button {
         	margin-top: 20px;
             padding: 10px 20px;
             font-size: 6.9em;
-        	background-color: #006900;
+        	background-color: #b11f3e;
             color: white;
             border: none;
             cursor: pointer;
         }
         
         button:hover {
-        	background-color: #000069;
+        	background-color: #690000;
         }
     </style>
 </head>
 
 <body>
-	<div>
+	<div class="container">
     	<div id="text">Not Generated Yet!</div>
-        
+        <button onclick="rannum()"></button>
     </div>
-	<div>
-    	<button onclick="rannum()"></button>
-    </div>
+	
 	
     <script>
     	function rannum() {
@@ -52,4 +56,5 @@
         }
     </script>
 </body>
+
 </html>
